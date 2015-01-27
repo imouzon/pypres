@@ -29,3 +29,21 @@ All you really need is the `Command Line Tools` which can be acquired by using
 ```Shell
 xcode-select --install
 ```
+
+and we can then install Homebrew:
+
+```Shell
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+##Installing python
+First check the version of Python you are using:
+```Shell
+python --version
+```
+This will report that the command `python` could not be found if you do not have any
+version of python on your machine.
+Also, check the version of Python 3:
+```Shell
+python --version
+```
