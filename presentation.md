@@ -68,3 +68,10 @@ or Python 3:
 ```Shell
 python3
 ```
+
+##Writing Python code
+Now that we have Python frameworks installed, we can start running code.
+For those of you who feel most comfortable in Rstudio, I recommend [Spyder](https://code.google.com/p/spyderlib/)
+which seems to be the most "R like" coding environment for python.
+
+(I will do a brief demonstration if I have time).
