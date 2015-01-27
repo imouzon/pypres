@@ -35,6 +35,11 @@ and we can then install Homebrew:
 ```Shell
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
+The Homebrew directory should be added to your path (I think this may occur automatically).
+Simply open a file in `~/.profile` and add the line
+```Shell
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH
+```
 
 ##Installing python
 First check the version of Python you are using:
@@ -46,4 +51,20 @@ version of python on your machine.
 Also, check the version of Python 3:
 ```Shell
 python --version
+```
+If you aren't using Python 2.7, do the following:
+```Shell
+brew install python
+```
+and Python 3.4 seems to be the going version of Python 3:
+```Shell
+brew install python
+```
+You are now ready to run Python 2:
+```Shell
+python
+```
+or Python 3:
+```Shell
+python3
 ```
