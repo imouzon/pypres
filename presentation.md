@@ -50,7 +50,7 @@ This will report that the command `python` could not be found if you do not have
 version of python on your machine.
 Also, check the version of Python 3:
 ```Shell
-python --version
+python3 --version
 ```
 If you aren't using Python 2.7, do the following:
 ```Shell
