@@ -1,10 +1,31 @@
-#Installing python on a mac
-There are two main versions of python, `python 3.x` and `python 2.x`.
+#Installing Python on a mac
+There are two main versions of Python, `Python 3.x` and `Python 2.x`.
 The conversation over which one is preferable seems to be
-occurring mainly on the side of development using python
-(apparently, it is very easy to create GUI apps using a few key python
+occurring mainly on the side of development using Python
+(apparently, it is very easy to create GUI apps using a few key Python
 tools) but it boils down to this (my understanding):
-* Python3 is the future of python and we should try to use it as our default
+* Python 3 is the future of Python and we should try to use it as our default
 and
-* Python3 will break your computer because everything special about python still depends on python2
+* Python 3 will break your computer because everything special about Python still depends on Python 2
+this of course means that you should install both of them. 
+It actually seems like there is more to it than that, as can be seen by reading
+the subtext in the [main discussion](https://wiki.Python.org/moin/Python2orPython3) on the Python wiki about how to choose between
+the two. 
+It seems like there is a lot of frustration on the part of the `Python 3` people.
 
+Of course, you should install both.
+
+##Homebrew
+I have used a few package managers (macports and fink primarily). 
+Homebrew is the best I have used so far, mainly because I mostly understand it.
+However, it also has a healthy future (In 2013, according to Wikipedia, Homebrew
+had the largest number of contributers on Github).
+
+###Installing Homebrew
+You do not have to install Xcode. 
+Xcode is large and outside of the scope of what we usually do in statistics.
+All you really need is the `Command Line Tools` which can be acquired by using
+
+```Shell
+xcode-select --install
+```
